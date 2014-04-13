@@ -1,0 +1,139 @@
+.popover{
+    font-family: 'Tahoma';
+    border: 7px solid #323337;
+    width: 310px;
+}
+
+.popover__header{
+    font-size: 14px;
+    font-weight: 800;
+    background: #e6e6e6;
+    color: #434343;
+    padding: 6px 4px 7px 6px;
+    border-top: 1px solid #6a6c69;
+    border-left: 1px solid #6a6c69;
+    border-right: 1px solid #6a6c69;
+    text-shadow: 0px 0px 1px rgba(154, 154, 154, 0.5);
+}
+
+.popover__counter{
+    float: right;
+    background: #7157a0;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 2px 4px;
+    margin-top: -3px;
+    border: 1px solid #8b7ca3;
+}
+
+.popover__avatar{
+    border-top: 1px solid #6a6c69;    
+    background: #414141;
+    height: 60px;
+}
+
+.popover__avatar > img{
+    margin-left: 25px;
+}
+
+.popover__main{
+    border-top: 1px solid #6a6c69;  border-left: 1px solid #6a6c69;  border-right: 1px solid #6a6c69;
+    padding: 3px 6px;
+    background: #e6e6e6;
+}
+
+.popover__options{
+    font-size: 12px;
+    line-height: 15px;
+    color: #434343;
+}
+
+.popover__hr{
+    width: 100%;
+    background: #a6a7a2;
+    height: 1px;
+    box-shadow: 0px 1px 0px #FFFFFF;
+    margin: 5px 0px;
+}
+
+.popover__progress{
+    margin: 10px 0px;
+    width: 212px;
+}
+
+.popover__screenshot{
+    border-top: 1px solid #4c4d4f;  
+    border-left: 1px solid #4c4d4f;  
+    border-right: 1px solid #4c4d4f;
+}
+
+.popover__screenshot > img{
+
+}
+
+.popover__scrlabel{
+    background: #666666;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px 0px 8px 0px;
+
+    text-shadow: -1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.popover__slider{
+
+}
+
+.popover__ctrl-left{
+
+}
+
+.popover__ctrl-right{
+
+}
+
+.popover_hide{
+    display: none;
+}
+
+.popover__progress_outer{
+    height: 21px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.59), 0px -1px 7px 0px rgba(0, 0, 0, 0.39) inset;
+    background: #dddbe8;
+    border: 1px solid #a1a39e;
+}
+
+.popover__progress_inner{
+    background: red;
+    height: 61%;
+    position: relative;
+    width: 67%;
+    top: 19%;
+    margin-left: 5px;
+    display: block; 
+    border-radius: 9px;
+    background-image: -webkit-linear-gradient(bottom, #593d8d 0%, #7b5faf 100%);
+    border: 1px solid #4d3d6a;
+    z-index: 1;
+}
+
+.popover__progress_innerbg{
+    display: block;
+    content:'';
+    width: 95%;
+    height: 67%;
+    background: #bfc3c4;
+    box-shadow: 0px 5px 9px rgba(105, 105, 105, 0.53) inset;
+    border-radius: 7px;
+    position: relative;
+    top: -12px;
+    border: 1px solid #A5A5A5;
+    margin-left: 4px;
+}
+
+.popover_pdngfix{
+    padding-bottom: 5px;
+}

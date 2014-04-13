@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="js-popover popover">
+        <div class="popover__header">
+            Название игры
+            <div class="popover__counter">+999</div>
+        </div>
+        <div class="popover__avatar">
+            <img src="avatar.png" alt="">
+        </div>
+        <div class="popover__main">
+            <div class="popover__options">Достижения: 9999</div>
+            <div class="popover__options">Жанр: Стратегия</div>
+            <div class="popover__options">Обновление: 25.05.2014</div>
+            <div class="popover__hr"></div>
+            <div class="popover__progress popover_hide"></div>
+            <button class="btn-purple adddelGame" onclick="AjaxFormRequestValue('post.php?type=adddelgame',{{game_id}},adddelGame)" style="{{hidden_games}}">
+                {{button_games}}
+            </button>
+            <button class="btn-purple adddelGame" onclick="AjaxFormRequestValue('post.php?type=adddelgame',{{game_id}},adddelGame)" style="{{hidden_games}}">
+                {{button_games}}
+            </button>
+        </div>
+        <div class="popover__screenshot">
+            <div class="popover__scrlabel">Скриншоты (4)</div>
+            <img class="popover_hide" src="" alt="">
+            <div class="popover__slider popover__ctrl-left popover_hide"></div>
+            <div class="popover__slider popover__ctrl-right popover_hide"></div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class="js-popover popover">
+        <div class="popover__header">
+            Название достиржения
+            <div class="popover__counter">+999</div>
+        </div>
+        <div class="popover__avatar">
+            <img src="avatar.png" alt="">
+        </div>
+        <div class="popover__main">
+            <div class="popover__options">Условие получения достижения например сыграть в 100500 игр на сайте умещается в две строчки :)</div>
+            <div class="popover__progress">
+                <div class="popover__progress_outer">
+                    <div class="popover__progress_inner"></div>
+                    <div class="popover__progress_innerbg"></div>
+                </div>
+            </div>
+            <div class="popover__hr"></div>
+            <div class="popover__options">Сложность: Легко</div>
+            <div class="popover__options popover_pdngfix">Игра: Название игры</div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="js-popover popover">
+        <div class="popover__header">
+            Имя пользователя
+            <div class="popover__counter">+999</div>
+        </div>
+        <div class="popover__avatar">
+            <img src="avatar.png" alt="">
+        </div>
+        <div class="popover__main">
+            <button class="btn-purple adddelGame" onclick="AjaxFormRequestValue('post.php?type=adddelgame',{{game_id}},adddelGame)" style="{{hidden_games}}">
+                {{button_games}}
+            </button>
+            <button class="btn-purple adddelGame" onclick="AjaxFormRequestValue('post.php?type=adddelgame',{{game_id}},adddelGame)" style="{{hidden_games}}">
+                {{button_games}}
+            </button>
+            <div class="popover__options popover_pdngfix"><i>Статус пользователя который может занимать приблизительно до трех строчек в всплывающем окне с информацией а дальше...</i></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="js-popover popover">
+        <div class="popover__header">
+            Название сообщества
+            <div class="popover__counter">+999</div>
+        </div>
+        <div class="popover__avatar">
+            <img src="avatar.png" alt="">
+        </div>
+        <div class="popover__main popover_pdngfix">
+            <div class="popover__options">Участников: 999 999</div>
+            <div class="popover__options">Тип: Клан \ Гильдия</div>
+            <div class="popover__hr"></div>
+            <button class="btn-purple adddelGame" onclick="AjaxFormRequestValue('post.php?type=adddelgame',{{game_id}},adddelGame)" style="{{hidden_games}}">
+                {{button_games}}
+            </button>   
+        </div>
+    </div>
+</body>
+</html>
